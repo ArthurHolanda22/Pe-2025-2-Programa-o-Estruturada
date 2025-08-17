@@ -1,1 +1,1 @@
-# Pe-2025-2-Programa-o-Estruturada
+# Pe-2025-2-Programacao-Estruturada
