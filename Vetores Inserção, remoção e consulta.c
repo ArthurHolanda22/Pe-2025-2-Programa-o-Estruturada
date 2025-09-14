@@ -121,9 +121,10 @@ void remover_elemento(int vetor[], int *tamanho, int valor) {
 }
 
 void inserir_ordenado(int vetor[], int *tamanho, int valor) {
-    int i;
-    for (i = *tamanho - 1; i >= 0 && vetor[i] > valor; i--) {
+    int i = *tamanho - 1;
+    while (i >= 0 && vetor[i] > valor) {
         vetor[i + 1] = vetor[i];
+        i--;
     }
     vetor[i + 1] = valor;
     (*tamanho)++;
